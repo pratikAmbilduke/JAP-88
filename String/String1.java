@@ -11,4 +11,7 @@ class String1
 	}
 }
 
-	
+/*
+input: India
+output: ndiaI
+*/	
