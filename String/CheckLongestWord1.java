@@ -4,7 +4,7 @@ class CheckLongestWord1
 	{
 		String s1= "welcome to aaaaaaaaaaaaa international airport";
 		String s2[]= s1.split(" ");
-		String max= max= s2[0];
+		String max= s2[0];
 		for(int i=1; i<s2.length; i++)
 		{
 			if(max.length()<s2[i].length())
