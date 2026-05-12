@@ -1,0 +1,25 @@
+/*
+input: hello i am java developer
+output: hll m jv dvlpr eoiaaaeeoe
+*/
+
+class VowellsOfWordsAtLast
+{
+	public static void main(String args[])
+	{
+		String s1= "hello i am java developer"
+		String s2= s1.toUpperCase();
+		StringBuilder vow= new StringBuilder();
+		StringBuilder cons= new StringBuilder();
+		for(int i=0; i<s1.length(); i++)
+		{
+			if(int c== 'A' || c=='E' || c== 'I' || c== 'O' || c=='U')
+				vow.append(s1.chatAt(i));
+			else
+				if(c!=' ')
+					cons.append(s1.charAt(i));
+		}
+		System.out.println(cons);
+		
+	}
+}
