@@ -1,0 +1,4 @@
+interface Walk
+{
+	void walk();
+}
