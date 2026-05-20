@@ -1,0 +1,8 @@
+class MethodOverriding
+{
+	public static void main(String args[])
+	{
+		Mango m= new Mango();
+		m.leafs();
+	}	
+}
