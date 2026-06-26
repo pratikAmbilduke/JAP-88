@@ -12,5 +12,7 @@ class ListMethod
 
 		System.out.println(list);
 		System.out.println(list.get(1));
+		String num= list.get(2);
+		System.out.println(num);
 	}
 }
