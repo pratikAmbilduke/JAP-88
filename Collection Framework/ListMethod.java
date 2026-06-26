@@ -10,6 +10,7 @@ class ListMethod
 		list.add("java");
 		list.add(1,"Modi");
 		list.set(1, "javaScript");
+		list.remove(2);
 
 		System.out.println(list);
 		System.out.println(list.get(1));
