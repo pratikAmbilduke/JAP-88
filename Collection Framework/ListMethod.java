@@ -11,5 +11,6 @@ class ListMethod
 		list.add(1,"Modi");
 
 		System.out.println(list);
+		System.out.println(list.get(1));
 	}
 }
