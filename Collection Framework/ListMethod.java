@@ -9,14 +9,10 @@ class ListMethod
 		list.add("python");
 		list.add("c++");
 		list.add(1,"Modi");
-		list.set(1, "javaScript");
-		list.remove(2);
-		
+		list.add("Modi");
 
-		System.out.println(list);
-		System.out.println(list.get(1));
-		String num= list.get(2);
-		System.out.println(num);
+		System.out.println(list);	
 		System.out.println(list.indexOf("java"));
+		System.out.println(list.lastIndexOf("Modi"));
 	}
 }
