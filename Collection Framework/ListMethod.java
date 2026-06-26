@@ -14,5 +14,6 @@ class ListMethod
 		System.out.println(list);	
 		System.out.println(list.indexOf("java"));
 		System.out.println(list.lastIndexOf("Modi"));
+		System.out.println(list.contains("Modi"));
 	}
 }
