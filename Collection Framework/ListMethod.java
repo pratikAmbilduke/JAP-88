@@ -11,11 +11,12 @@ class ListMethod
 		list.add(1,"Modi");
 		list.set(1, "javaScript");
 		list.remove(2);
-		list.remove("java");
+		
 
 		System.out.println(list);
 		System.out.println(list.get(1));
 		String num= list.get(2);
 		System.out.println(num);
+		System.out.println(list.indexOf("java"));
 	}
 }
