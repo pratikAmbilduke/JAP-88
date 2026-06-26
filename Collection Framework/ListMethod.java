@@ -8,6 +8,7 @@ class ListMethod
 		list.add("java");
 		list.add("python");
 		list.add("java");
+		list.add(1,"Modi");
 
 		System.out.println(list);
 	}
