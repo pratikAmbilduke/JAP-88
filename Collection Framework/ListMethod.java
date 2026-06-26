@@ -7,10 +7,11 @@ class ListMethod
 		List<String> list= new ArrayList<>();
 		list.add("java");
 		list.add("python");
-		list.add("java");
+		list.add("c++");
 		list.add(1,"Modi");
 		list.set(1, "javaScript");
 		list.remove(2);
+		list.remove("java");
 
 		System.out.println(list);
 		System.out.println(list.get(1));
