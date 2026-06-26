@@ -9,6 +9,7 @@ class ListMethod
 		list.add("python");
 		list.add("java");
 		list.add(1,"Modi");
+		list.set(1, "javaScript");
 
 		System.out.println(list);
 		System.out.println(list.get(1));
