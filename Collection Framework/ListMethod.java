@@ -10,6 +10,7 @@ class ListMethod
 		list.add("c++");
 		list.add(1,"Modi");
 		list.add("Modi");
+		list.add("Rahul Gandu");
 
 		System.out.println(list);	
 		System.out.println(list.indexOf("java"));
