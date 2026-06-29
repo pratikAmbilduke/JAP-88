@@ -9,6 +9,11 @@ class ArrayList1
 		list.add("java");
 		list.add("java");
 		list.add(null);
+
+		for(int i=1; i<=100; i++)
+		{
+			System.out.println(i);
+		}
 		System.out.println(list);
 	}
 }
