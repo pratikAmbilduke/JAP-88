@@ -8,6 +8,7 @@ class ArrayList1
 		
 		list.add("java");
 		list.add("java");
+		list.add(null);
 		System.out.println(list);
 	}
 }
