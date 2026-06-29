@@ -7,7 +7,7 @@ class ArrayList1
 		ArrayList<String> list= new ArrayList<>();
 		
 		list.add("java");
-		
+		list.add("java");
 		System.out.println(list);
 	}
 }
