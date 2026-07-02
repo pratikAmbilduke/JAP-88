@@ -10,5 +10,6 @@ class Stack1
 		System.out.println("Before pop operatin:"+s);
 		s.pop();
 		System.out.println("After pop Operation:"+s);
+		System.out.println(s.empty());
 	}
 }
